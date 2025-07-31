@@ -84,7 +84,7 @@ python3 keyelf.py /home/Many-wallets/LostWallets-main
 [+1] New private key found (Source: /home/Many-wallets/LostWallets-main/2/25.75-BTC.dat)                                                  
    - WIF (Uncompressed): 5JcKu5rkEQEH5VdKvynSb7ASQHixu83q2Y8FRqFXykQWKBPWax7
    - WIF (Compressed)  : KzivQtSZp9XbxqMLZFdZwYCf7npDj47UynNzgby9jUakPB6KNKcC
-[+1] New private key found (Source: /home/hooj/LostWallets-main/2/25.75-BTC.dat)                                                  
+[+1] New private key found (Source: /home/Many-wallets/LostWallets-main/2/25.75-BTC.dat)                                                  
    - WIF (Uncompressed): 5HwMcPBb6v2AoUGAzsPrWGDhZiSzYj8vPBxmfGYLDoxEj7qmKrc
    - WIF (Compressed)  : KwkuyAujX72AG7Ky8RRsWAB43Pwj12yxcwPA7ubHqYEoadY73Scd
 
@@ -94,13 +94,13 @@ python3 keyelf.py /home/Many-wallets/LostWallets-main
 *
 *
 *
-[+1] New private key found (Source: /home/hooj/LostWallets-main/1/0.00000547-BTC.dat)                                             
+[+1] New private key found (Source: /home/Many-wallets/LostWallets-main/1/0.00000547-BTC.dat)                                             
    - WIF (Uncompressed): 5JdzUghgyXHP3sskKDkxzhbXxUQSLCLh2QxBDBEH6DvXEQ1jchs
    - WIF (Compressed)  : KzrGhCEbSUfJKhYzBRK49gBRdqxSoj3ufEiY4k9c243ERuHmN5b1
-[+1] New private key found (Source: /home/hooj/LostWallets-main/1/0.00000547-BTC.dat)                                             
+[+1] New private key found (Source: /home/Many-wallets/LostWallets-main/1/0.00000547-BTC.dat)                                             
    - WIF (Uncompressed): 5KYNdKe8wnN6RjEam7HrYojU5ynvjYkaeaWHEgbDfSt46Xm6R5D
    - WIF (Compressed)  : L4qUTKGv4oE6x9Qx1gmPhPGSYyfiAo9MWrtEfPk2thELeyVbSXdT
-[+1] New private key found (Source: /home/hooj/LostWallets-main/1/0.00000547-BTC.dat)                                             
+[+1] New private key found (Source: /home/Many-wallets/LostWallets-main/1/0.00000547-BTC.dat)                                             
    - WIF (Uncompressed): 5JaX6nQKkqUS6V3bYCNngmk437H77mBPJ1LrRPJby6reeapKyFw
    - WIF (Compressed)  : KzawrXPwnUx5mCnTShDAeYV2QJi5zqzqQ4Wd8dShLcr9AZ5sSRpr
                                                                                                                                   
