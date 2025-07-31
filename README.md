@@ -1,30 +1,27 @@
-This Python script is specifically designed for recovering Bitcoin private keys from corrupted or accidentally deleted data sources.
+keyelf This Python script is specifically designed for recovering Bitcoin private keys from corrupted or accidentally deleted data sources.
 It doesn't rely on a complete file structure, but instead locates private keys by directly scanning the raw binary data.
 
-Core Principle:
+1. Core Principle:
 The tool locates potential private keys by searching for a specific Bitcoin private key signature (ASN.1 structure prefix) within the data stream. 
-
 Once found, it extracts the subsequent 32-byte raw key and automatically converts it to both the standard WIF (Wallet Import Format) compressed and uncompressed formats for direct import into a wallet.
 
-Key Features:
-
+2. Key Features:
 Multi-mode Scanning:
-
 Supports scanning single files (such as wallet.dat), entire file directories, and block devices (such as hard drive partitions /dev/sdb or disk images).
 
-Highly Reliable Architecture: 
-
+3. Highly Reliable Architecture: 
 Utilizes a "manager-worker" model when scanning directories.
 Each file is handled by a separate child process. Even if a file causes the scan to crash, the main process continues running, ensuring the integrity of the scan.
 
-High-Performance I/O: 
-
+4. High-Performance I/O: 
 Prefers using mmap for file memory mapping to improve scanning speed, and automatically falls back to traditional block-based reading.
 For large file scans, a built-in progress bar and boundary overlap detection are included to prevent missed files.
-Ready-to-use output: Displays found WIF formatted private keys directly in the console and backs up all raw hexadecimal private keys to found_hex_keys.txt.
+
+5. Ready-to-use output:
+Displays found WIF formatted private keys directly in the console and backs up all raw hexadecimal private keys to found_hex_keys.txt.
 
 
-To run the script, simply use the following command (replace [target path] with the file, directory, or device you want to scan):
+6. To run the script, simply use the following command (replace [target path] with the file, directory, or device you want to scan):
 
 1. Scan a folder
 ```
@@ -109,7 +106,7 @@ python3 keyelf.py /home/Many-wallets/LostWallets-main
                                                                                                                                   
 ------------------------------------------------------------
 [ok] Scan Complete.
-[ok] Summary: Found 183 unique private keys.
+[ok] Summary: Found 1832 unique private keys.
 [ok] All hexadecimal private keys have been saved to found_hex_keys.txt.
 
 ```
