@@ -21,7 +21,7 @@ For large file scans, a built-in progress bar and boundary overlap detection are
 Displays found WIF formatted private keys directly in the console and backs up all raw hexadecimal private keys to found_hex_keys.txt.
 
 
-6. To run the script, simply use the following command (replace [target path] with the file, directory, or device you want to scan):
+# To run the script, simply use the following command (replace [target path] with the file, directory, or device you want to scan):
 
 1. Scan a folder
 ```
